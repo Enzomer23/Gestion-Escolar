@@ -1,0 +1,1 @@
+# Archivo vacío para hacer que sections sea un paquete Python
