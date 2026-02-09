@@ -1,0 +1,40 @@
+# =====================================================
+# GESJ - Sistema de Gestión Educativa
+# Dependencias de Python
+# Provincia de San Juan, República Argentina
+# =====================================================
+
+# ==================== LIBRERÍAS OBLIGATORIAS ====================
+# Base de datos MySQL
+mysql-connector-python==8.2.0
+
+# Interfaz gráfica (incluida en Python)
+# tkinter - Ya incluida en Python estándar
+
+# ==================== LIBRERÍAS OPCIONALES ====================
+# Exportación a Excel (RECOMENDADA)
+openpyxl==3.1.2
+
+# Manejo de imágenes para la interfaz
+Pillow==10.1.0
+
+# Exportación a PDF (OPCIONAL - Requiere compilación)
+# reportlab==4.0.7
+
+# ==================== LIBRERÍAS DEL SISTEMA ====================
+# Estas vienen incluidas con Python:
+# - tkinter (Interfaz gráfica)
+# - datetime (Manejo de fechas)
+# - os (Sistema operativo)
+# - sys (Sistema Python)
+# - typing (Type hints)
+# - mysql.connector (Incluida en mysql-connector-python)
+
+# ==================== INSTALACIÓN ====================
+# Para instalar todas las dependencias:
+# pip install -r requirements.txt
+#
+# O instalar individualmente:
+# pip install mysql-connector-python
+# pip install openpyxl
+# pip install Pillow
